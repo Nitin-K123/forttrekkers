@@ -8,7 +8,7 @@
   font-family: "marathiFont";
   src:
     local("marathiFont"),
-    url("../fonts/marathi_font.ttf") format("truetype");
+    url("../fonts/K301.TTF") format("truetype");
 }
 /* Base CSS */
 :root {
@@ -81,16 +81,16 @@ h1 {
 h2 {
   font-size: 55px;
   line-height: 65px;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 32px;
   line-height: 40px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 32px;
 }
 
@@ -1014,7 +1014,7 @@ label {
       -ms-flex-pack: center;
           justify-content: center;
   font-weight: 400;
-  font-family: var(--heading-font);
+  font-family: var(--body-font);
   font-size: 1rem;
   border-radius: 30px;
   -webkit-transition: all 0.3s;
@@ -1890,7 +1890,7 @@ label {
 
 .footer-widget .widget-title {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 28px;
 }
 .footer-widget .footer-content .text-box span i {
   color: var(--secondary-color);
@@ -2625,7 +2625,7 @@ label {
   margin-right: 7px;
 }
 .tripex-blog-item .content h4 {
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1.6;
   letter-spacing: 0px;
   margin-bottom: 17px;
@@ -2927,6 +2927,7 @@ label {
   line-height: 1;
   color: var(--white-color);
   z-index: 1;
+  font-size: 20px;
 }
 .tripex-destination-sec2 .tripex-destination-item .thumbnail {
   position: relative;

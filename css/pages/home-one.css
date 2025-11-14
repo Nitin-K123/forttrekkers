@@ -611,14 +611,14 @@ Version: 1.0
 }
 .tripex-tour-item {
   padding: 0;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   background-color: var(--white-color);
 }
 .tripex-tour-item .thumbnail {
   position: relative;
 }
 .tripex-tour-item .thumbnail img {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   width: 100%;

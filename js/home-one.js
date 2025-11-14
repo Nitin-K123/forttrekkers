@@ -9,7 +9,7 @@
     if ($('.destination-slider').length) {
         $('.destination-slider').slick({
             dots: false,
-            arrows: true,
+            arrows: false,
             infinite: true,
             speed: 800,
             autoplay: true,
