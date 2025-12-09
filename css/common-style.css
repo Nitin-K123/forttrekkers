@@ -2,13 +2,13 @@
   font-family: "Baloo2";
   src:
     local("Baloo2"),
-    url("../fonts/Baloo2-VariableFont_wght.ttf") format("truetype");
+    url("../fonts/Gotu-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "marathiFont";
   src:
     local("marathiFont"),
-    url("../fonts/K301.TTF") format("truetype");
+    url("../fonts/BakbakOne-Regular.TTF") format("truetype");
 }
 /* Base CSS */
 :root {
@@ -21,7 +21,7 @@
   --text-color: #737373;
   --border-color: #EEEFEF;
   --heading-font:  marathiFont;
-  --body-font:  "Baloo 2", sans-serif;
+  --body-font: "Baloo2", sans-serif;
   --accent-font:  "Sura", serif;
 }
 
